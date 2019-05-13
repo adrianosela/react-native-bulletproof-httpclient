@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/react-native-bulletproof-httpclient.svg?style=flat-square)](https://www.npmjs.org/package/react-native-bulletproof-httpclient)
 
-A bulletproof http client for react-native which takes as an argument a mapping of http response status code to handling function, with a ***mandatory default handler*** for unexpected codes
+A bulletproof wrapper around the [axios](https://www.npmjs.com/package/axios) client for react-native which takes as an argument a mapping of http response status code to handling function, with a ***mandatory default handler*** for unexpected codes
 
 **This is a WIP and is not production ready yet; it has only been published in order to reserve the package name on npm...  use at your own risk**
 
