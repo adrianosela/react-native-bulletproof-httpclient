@@ -1,6 +1,6 @@
 {
   "name": "react-native-bulletproof-httpclient",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An HTTP client which enourages the user to handle all expected HTTP response status codes for every given endpoint",
   "main": "HTTPClient.js",
   "scripts": {},
@@ -21,5 +21,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adrianosela/react-native-bulletproof-httpclient/issues"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
   }
 }
