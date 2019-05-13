@@ -1,6 +1,6 @@
 {
   "name": "react-native-bulletproof-httpclient",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An HTTP client which enourages the user to handle all expected HTTP response status codes for every given endpoint",
   "main": "HTTPClient.js",
   "scripts": {},
