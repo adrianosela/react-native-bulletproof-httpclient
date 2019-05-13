@@ -1,0 +1,20 @@
+{
+  "name": "react-native-httpclient",
+  "version": "0.0.1",
+  "description": "An HTTP client which enourages the user to handle all expected HTTP response status codes for every given endpoint",
+  "main": "HTTPClient.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianosela/react-native-httpclient.git"
+  },
+  "keywords": [
+    "http",
+    "http-client",
+    "client",
+    "react native",
+    "react-native",
+    "rest",
+    "api"
+  ]
+}
