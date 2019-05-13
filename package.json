@@ -1,12 +1,12 @@
 {
-  "name": "react-native-httpclient",
-  "version": "0.0.1",
+  "name": "react-native-bulletproof-httpclient",
+  "version": "0.0.2",
   "description": "An HTTP client which enourages the user to handle all expected HTTP response status codes for every given endpoint",
   "main": "HTTPClient.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adrianosela/react-native-httpclient.git"
+    "url": "git+https://github.com/adrianosela/react-native-bulletproof-httpclient.git"
   },
   "keywords": [
     "http",
@@ -16,5 +16,10 @@
     "react-native",
     "rest",
     "api"
-  ]
+  ],
+  "author": "Adriano Sela <adrianosela@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianosela/react-native-bulletproof-httpclient/issues"
+  }
 }
