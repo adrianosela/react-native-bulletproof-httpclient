@@ -33,10 +33,7 @@ const http = {
 
 export async function GET(url, config, handlers) {
 	try {
-		const resp = await http.axiosClient.get(
-			url,
-			config
-		);
+		const resp = await http.axiosClient.get(url, config);
 		http.responseHandler(resp, handlers);
 	} catch (err) {
 		http.errorHandler(err);
@@ -45,10 +42,7 @@ export async function GET(url, config, handlers) {
 
 export async function DELETE(url, config, handlers) {
 	try {
-		const resp = await http.axiosClient.delete(
-			url,
-			config
-		);
+		const resp = await http.axiosClient.delete(url, config);
 		http.responseHandler(resp, handlers);
 	} catch (err) {
 		http.errorHandler(err);
@@ -57,10 +51,7 @@ export async function DELETE(url, config, handlers) {
 
 export async function HEAD(url, config, handlers) {
 	try {
-		const resp = await http.axiosClient.head(
-			url,
-			config
-		);
+		const resp = await http.axiosClient.head(url, config);
 		http.responseHandler(resp, handlers);
 	} catch (err) {
 		http.errorHandler(err);
@@ -69,10 +60,7 @@ export async function HEAD(url, config, handlers) {
 
 export async function OPTIONS(url, config, handlers) {
 	try {
-		const resp = await http.axiosClient.options(
-			url,
-			config
-		);
+		const resp = await http.axiosClient.options(url, config);
 		http.responseHandler(resp, handlers);
 	} catch (err) {
 		http.errorHandler(err);
@@ -81,13 +69,7 @@ export async function OPTIONS(url, config, handlers) {
 
 export async function POST(url, body, config, handlers) {
 	try {
-		const resp = await http.axiosClient.post(
-			url,
-			body,
-			config
-		);
-		let handler = handlers[resp.status];
-		if (!handler) { handler = handlers['default']; }
+		const resp = await http.axiosClient.post(url, body, config);
 		http.responseHandler(resp, handlers);
 	} catch (err) {
 		http.errorHandler(err);
@@ -96,11 +78,7 @@ export async function POST(url, body, config, handlers) {
 
 export async function PUT(url, body, config, handlers) {
 	try {
-		const resp = await http.axiosClient.put(
-			url,
-			body,
-			config
-		);
+		const resp = await http.axiosClient.put(url, body, config);
 		http.responseHandler(resp, handlers);
 	} catch (err) {
 		http.errorHandler(err);
@@ -109,11 +87,7 @@ export async function PUT(url, body, config, handlers) {
 
 export async function PATCH(url, body, config, handlers) {
 	try {
-		const resp = await http.axiosClient.patch(
-			url,
-			body,
-			config
-		);
+		const resp = await http.axiosClient.patch(url, body, config);
 		http.responseHandler(resp, handlers);
 	} catch (err) {
 		http.errorHandler(err);
